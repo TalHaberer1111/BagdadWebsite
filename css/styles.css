@@ -5,3 +5,46 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  height: 1200px;
+  background-image: url("../img/sandBack.jpg");
+  background-repeat: repeat;
+  color: white;
+}
+a {
+  color: #DA7E25;
+}
+.navbar {
+  padding: 10px;
+  background: rgba(0, 0, 0, .8);
+  border-color: rgba(0, 0, 0, .8);
+  /*background-color: #271709;*/
+  text-align: center;
+  width: 100%;
+}
+
+.showtimesContainer {
+  border: 1px solid white;
+  background: rgba(0,0,0,0.15);
+}
+.buyTickets {
+  border: 1px solid white;
+  padding: 10px;
+  width: 85%;
+  text-align: center;
+  margin: 20px;
+  background: rgba(0,0,0,0.25);
+}
+
+button {
+  margin: 5px !important;
+}
+
+.moviesIMG {
+  width: 30%;
+  height: auto;
+  float: left;
+  margin: 15px;
+}
