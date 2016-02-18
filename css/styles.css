@@ -20,9 +20,10 @@ a {
   padding: 10px;
   background: rgba(0, 0, 0, .8);
   border-color: rgba(0, 0, 0, .8);
-  /*background-color: #271709;*/
+  background-color: #271709;
   text-align: center;
   width: 100%;
+  height: 100px;
 }
 
 .showtimesContainer {
@@ -35,16 +36,28 @@ a {
   width: 85%;
   text-align: center;
   margin: 20px;
-  background: rgba(0,0,0,0.25);
+  background: rgba(0,0,0,0.5);
 }
 
-button {
+.buyTickets button {
   margin: 5px !important;
+  width: 40%;
+  box-shadow: 1px 4px #AE651E;
+  background-color: #E19851 !important;
 }
 
 .moviesIMG {
   width: 30%;
   height: auto;
   float: left;
-  margin: 15px;
+  margin: 10px;
+}
+footer {
+  background-color: #271709;
+}
+
+.topPIC {
+  margin-top: -50px;
+  background: rgba(0,0,0,0.75);
+  padding: 10px;
 }
